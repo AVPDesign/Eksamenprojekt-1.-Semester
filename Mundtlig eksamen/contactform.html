@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AVP Design</title>
+    <link rel="stylesheet" type="text/css" href="contactform.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+<!--Navigation bar-->
+    <div class="navbar">
+        <a href="http://www.avpdesign.dk"><img id="logo" src="images/ap-logo-white.svg" alt="logo"></a>
+      <nav>
+        <ul>
+          <li><a class="navlink" href="#contact">Contact</a></li>
+          <li><a class="navlink" href="#about">About me</a></li>
+          <li><a class="navlink" href="#gallery">Gallery</a></li>
+          <li><a class="navlink" href="#welcome">Welcome</a></li>
+        </ul>
+      </nav>
+    </div>
+
+<!--Contact section-->
+    <a id="contact">
+      <div id="linktocontact"></div>
+    </a>
+    <div class="contact">
+      <img id="bricks-4" src="images/bricks-4.svg" alt="Orange brick design">
+      <h5>Contact - Get in touch</h5>
+      <p id="contacttext">If you find my content interesting and want<br>
+        to work with me, or just have a question or<br>
+        two, feel free to shoot me a message!</p>
+        <div id="container2">
+          <form action="action_page.php">
+
+            <input type="text" id="name" name="name" placeholder="Your name...">
+
+            <input type="text" id="email" name="email" placeholder="Your email address...">
+
+            <input type="text" id="subject" name="subject" placeholder="Subject...">
+
+            <textarea id="message" name="message" placeholder="Your message to me..." style="height:200px"></textarea>
+
+            <input type="submit" value="Send message">
+
+          </form>
+        </div>
+      <!--<button id="send">Send message</button>-->
+    </div>
+
+<!--Footer-->
+    <footer>
+      <p id=footertxt>Copyright © 2020 Andreas Villadsen Petterson. All rights reserved.</p>
+      <p id=footertxtemail>Email - andreasvp@hotmail.dk</p>
+      <p id=footertxtphone>Phone - 60731304</p>
+    </footer>
+
+  </body>
+</html>

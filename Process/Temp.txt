@@ -1,0 +1,9 @@
+indhold hjemmeside
+
+- logo
+- portfolie
+- billeder
+- egenskaber
+- om mig
+- kontakt
+- rettet mod virksomhed

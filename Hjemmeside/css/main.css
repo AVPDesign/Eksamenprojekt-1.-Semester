@@ -1,0 +1,672 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Barlow', sans-serif; */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+
+/*Navigation bar*/
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #ff9100;
+  position: fixed;
+  z-index: +1;
+  box-shadow: 0px 0px 20px #000000;
+}
+
+#logo {
+  height: 65px;
+  margin-top: 17px;
+  float:left;
+  margin-left: 320px;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 320px;
+}
+
+li {
+  float: right;
+}
+
+.navlink {
+  display: block;
+  color: white;
+  padding-left: 30px;
+  padding-top: 35px;
+  text-align: center;
+  font-family: "Barlow", sans-serif; font-size: 20px;
+  transition-property: color;
+  transition-duration: 1s;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color: #515151;
+  cursor: pointer;
+}
+
+.navlink:active {
+  color: #515151;
+}
+
+
+/*Welcome section*/
+#linktowelcome {
+  width: auto;
+  height: 100px;
+  position: absolute;
+}
+
+.welcome {
+  margin: 0;
+  width: 100%;
+  height: 869px;
+  background-color: #515151;
+  position: relative;
+  top: 100px;
+  right: 0;
+
+}
+
+#bricks-1 {
+  height: 498px;
+  position: relative;
+  top: 100px;
+  float: right;
+}
+
+#bricks-2 {
+  height: 498px;
+  position: relative;
+  top: 348px;
+  left: 0;
+}
+
+h1 {
+  margin: 0;
+  display: block;
+  color: white;
+  font-family: "Barlow", sans-serif; font-size: 50px;
+  position: relative;
+  bottom: 300px;
+  margin-left: 320px;
+}
+
+.whitetext {
+  margin: 0;
+  display: block;
+  color: white;
+  font-family: "Barlow", sans-serif; font-size: 25px;
+  position: relative;
+  bottom: 300px;
+  margin-left: 320px;
+  padding-left: 145px;
+}
+
+#scrolldown {
+  border: 3px solid #ff9100;
+  background-color: #515151;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif; font-size: 20px;
+  cursor: pointer;
+  margin-left: 500px;
+  padding-bottom: 4px;
+  position: relative;
+  bottom: 200px;
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#scrolldown:hover {
+  background-color: #ff9100;
+}
+
+#mewelcome {
+  height: 900px;
+  position: absolute;
+  bottom: 0px;
+  right: 250px;
+}
+
+/*Gallery section*/
+#linktogallery {
+  width: auto;
+  height: 100px;
+  position: absolute;
+}
+
+.gallery {
+  margin: 0;
+  width: 100%;
+  height: 869px;
+  background-color: #ffffff;
+  position: relative;
+  top: 100px;
+  right: 0;
+  text-align: center;
+}
+
+.items {
+  text-align: center;
+
+}
+
+.items:hover {
+  cursor: pointer;
+}
+
+.bricks {
+
+}
+
+h2 {
+  margin: 0;
+  color: #515151;
+  font-family: "Barlow", sans-serif; font-size: 50px;
+  position: relative;
+  top: 70px;
+}
+
+.gallerytxt {
+  margin: 0;
+  color: #515151;
+  font-family: "Barlow", sans-serif; font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  width: 354px;
+  bottom: 80px;
+  opacity: 1;
+
+}
+
+.galleryimg {
+  height: 160px;
+  margin-top: 8px;
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.galleryimg:hover {
+  height: 160px;
+  margin-top: 8px;
+  opacity: .3;
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+#row-1 {
+  width: 1903px;
+  height: 180px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 436px;
+}
+
+#item-1 {
+  width: 360px;
+  height: 180px;
+  background-color: #ff9100;
+  float: left;
+  margin-left: 4px;
+  border-radius: 30px;
+}
+
+#item-2 {
+  width: 354px;
+  height: 174px;
+  background-color: #ffffff;
+  border: 3px solid #515151;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#item-3 {
+  width: 360px;
+  height: 180px;
+  background-color: #ff9100;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#brick-1 {
+  width: 360px;
+  height: 180px;
+  background-color: #ff9100;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#item-4 {
+  width: 354px;
+  height: 174px;
+  background-color: #ffffff;
+  border: 3px solid #515151;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#row-2 {
+  width: 1903px;
+  height: 180px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 228px;
+}
+
+#brick-2 {
+  width: 172px;
+  height: 180px;
+  background-color: #ff9100;
+  float: left;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#item-5 {
+  width: 354px;
+  height: 174px;
+  background-color: #ffffff;
+  border: 3px solid #515151;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#item-6 {
+  width: 354px;
+  height: 174px;
+  background-color: #ffffff;
+  border: 3px solid #515151;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#item-7 {
+  width: 354px;
+  height: 174px;
+  background-color: #ffffff;
+  border: 3px solid #515151;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#item-8 {
+  width: 354px;
+  height: 174px;
+  background-color: #ffffff;
+  border: 3px solid #515151;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#brick-3 {
+  width: 171px;
+  height: 180px;
+  background-color: #ff9100;
+  float: left;
+  margin-left: 24px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#row-3 {
+  width: 1903px;
+  height: 180px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 24px;
+
+}
+
+#item-9 {
+  width: 360px;
+  height: 180px;
+  background-color: #ff9100;
+  float: left;
+  margin-left: 4px;
+  border-radius: 30px;
+}
+
+#brick-4 {
+  width: 360px;
+  height: 180px;
+  background-color: #ff9100;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#item-10 {
+  width: 354px;
+  height: 174px;
+  background-color: #ffffff;
+  border: 3px solid #515151;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#item-11 {
+  width: 354px;
+  height: 174px;
+  background-color: #ffffff;
+  border: 3px solid #515151;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#item-12 {
+  width: 360px;
+  height: 180px;
+  background-color: #ff9100;
+  float: left;
+  margin-left: 24px;
+  border-radius: 30px;
+}
+
+#roboteye {
+  border: none;
+}
+
+/*About me section*/
+#linktoabout {
+  width: auto;
+  height: 100px;
+  position: absolute;
+}
+
+.about {
+  margin: 0;
+  width: 100%;
+  height: 869px;
+  background-color: #515151;
+  position: relative;
+  top: 100px;
+  right: 0;
+}
+
+h3 {
+  margin: 0;
+  display: block;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif; font-size: 50px;
+  position: absolute;
+  top: 70px;
+  left: 850px;
+}
+
+#bricks-3 {
+  height: 672px;
+  position: relative;
+  float: right;
+  top: 173px;
+}
+
+#meabout {
+  height: 650px;
+  position: absolute;
+  bottom: 0px;
+}
+
+#container1 {
+  width: 900px;
+  height: 672px;
+  position: absolute;
+  top: 173px;
+  margin-left: 555px;
+}
+
+.icon {
+  width: 150px;
+  height: 100%;
+  text-align: right;
+}
+
+h4 {
+  color: #ffffff;
+  margin: 0;
+  font-family: "Barlow", sans-serif; font-size: 25px;
+  margin-top: 47px;
+  margin-left: 30px;
+
+}
+
+.abouttext {
+  margin: 0;
+  color: #ffffff;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  font-family: "Roboto", sans-serif; font-size: 15px;
+
+}
+
+#skills {
+  width: 100%;
+  height: 350px;
+  position: absolute;
+}
+
+#topfour {
+  width: 750px;
+  height: 150px;
+  position: absolute;
+  bottom: 50px;
+  left: 175px;
+}
+
+.topfouricons {
+  height: 70px;
+  margin-left: 60px;
+  margin-right: 60px;
+  float: left;
+  margin-top: 15px;
+}
+
+.topfouriconsxd {
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.icontxt {
+  margin: 0;
+  display: block;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif; font-size: 20px;
+  float: left;
+}
+
+#iconil {
+  margin-left: 25px;
+}
+
+#iconhtml {
+  margin-left: 90px;
+}
+
+#iconcss {
+  margin-left: 125px;
+}
+
+#iconxd {
+  margin-left: 130px;
+}
+
+#education {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 350px;
+}
+
+#personality {
+  width: 100%;
+  height: 222px;
+  position: absolute;
+  top: 450px;
+}
+
+/*Contact section*/
+#linktocontact {
+  width: auto;
+  height: 100px;
+  position: absolute;
+}
+
+.contact {
+  margin: 0;
+  width: 100%;
+  height: 869px;
+  background-color: #ffffff;
+  position: relative;
+  top: 100px;
+  right: 0;
+  text-align: center;
+}
+
+#bricks-4 {
+  height: 672px;
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+}
+
+h5 {
+  margin: 0;
+  display: block;
+  color: #515151;
+  font-family: "Barlow", sans-serif; font-size: 50px;
+  position: absolute;
+  top: 70px;
+  left: 435px;
+}
+
+#contacttext {
+  margin: 0;
+  color: #515151;
+  font-family: "Barlow", sans-serif; font-size: 25px;
+  position: absolute;
+  top: 170px;
+  left: 440px;
+}
+
+#container2 {
+  width: 550px;
+  height: 566px;
+  position: absolute;
+  top: 85px;
+  right: 320px;
+}
+
+.contactinfobox {
+  width: 100%;
+  height: 50px;
+  border: 3px solid #ff9100;
+  background-color: #515151;
+  margin-bottom: 35px;
+  border-radius: 10px;
+  text-align: left;
+
+}
+
+.messagebox {
+  width: 100%;
+  height: 252px;
+  border: 3px solid #ff9100;
+  background-color: #515151;
+  border-radius: 10px;
+  margin-top: 70px;
+  text-align: left;
+}
+
+.contacttext {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; font-size: 20px;
+  margin-top: 13px;
+  margin-left: 13px;
+}
+
+#send {
+  border: 3px solid #ff9100;
+  background-color: #515151;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif; font-size: 20px;
+  cursor: pointer;
+  margin-left: 500px;
+  padding-bottom: 4px;
+  position: absolute;
+  bottom: 159px;
+  right: 727px;
+  border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#send:hover {
+  background-color: #ff9100;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #515151;
+  position: relative;
+  top: 100px;
+  right: 0;
+  text-align: left;
+}
+
+#footertxt {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; font-size: 20px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+#footertxtemail {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; font-size: 20px;
+  position: absolute;
+  bottom: 12px;
+  right: 200px;
+}
+
+#footertxtphone {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; font-size: 20px;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
